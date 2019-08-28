@@ -109,3 +109,12 @@ object canelones {
 		tieneQueso = false
 	}
 }
+
+object roque {
+	method entrenar(ave){
+		ave.vola(10)
+		ave.come(alpiste)
+		ave.vola(5)
+		ave.haceLoQueQuieras()
+	}
+}
